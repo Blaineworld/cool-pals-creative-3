@@ -1,0 +1,13 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:block": {
+		"description": { "identifier": "cpc:color_ltblue_g" },
+		"components": {
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:destructible_by_mining": false,
+			"minecraft:light_dampening": 0,
+			"minecraft:light_emission": 15,
+			"minecraft:map_color": "#4AC3EA"
+		}
+	}
+}

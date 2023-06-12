@@ -1,0 +1,19 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:block": {
+		"description": { "identifier": "cpc:color_green_c" },
+		"components": {
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:destructible_by_mining": false,
+			"minecraft:light_dampening": 0,
+			"minecraft:map_color": "#5E7C16",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cpb_color_green",
+					"ambient_occlusion": false,
+					"render_method": "blend"
+				}
+			}
+		}
+	}
+}

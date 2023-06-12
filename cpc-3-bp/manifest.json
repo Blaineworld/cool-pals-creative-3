@@ -1,0 +1,34 @@
+{
+	"format_version": 2,
+
+	"header": {
+		"version": [ 2, 0, 0 ],
+		"uuid": "2f959037-39a0-4a24-9ebc-a7055b4dc4ae",
+		"min_engine_version": [ 1, 19, 50 ],
+
+		"name": "CPC-3 Behavior Pack",
+		"description": "Cool Pals Creative 3.0 behavior pack"
+	},
+
+	"metadata": {
+		"authors": [ "Blaineworld" ],
+		"url": "https://github.com/Blaineworld/cool-pals-creative"
+	},
+
+	"modules": [
+		{
+			"version": [ 2, 0, 0 ],
+			"uuid": "9a94cbae-6e89-4a90-8ff4-5c0aab7973d1",
+			"type": "data",
+
+			"description": "Cool Pals Creative 3.x behavior pack"
+		}
+	],
+
+	"dependencies": [
+		{
+			"version": [ 2, 0, 0 ],
+			"uuid": "c86338bb-3eb4-47f1-a3dd-cf01901cd8d3"
+		}
+	]
+}
