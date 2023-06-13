@@ -1,0 +1,14 @@
+These are the credits for the CPC painting textures.
+And just a note to myself for later: the inset shadows are at 25% opacity.
+
+1x1 paintings
+  "Gray Guy" by Bryce (Green Circut)
+    created by putting a photo of himself through an "anime" filter 11 times
+
+2x1 paintings
+  "yeaVerily" by Blaine (Blainew0rld)
+    the spawn of the seed yeaVerily with the resource pack Vanilla RTX Normals
+
+2x2 paintings
+  "Cool Pals Car" by Roxanne (RobinGlizard)
+    drawn long ago with pencil on paper as the "Cool Pals" group chat icon

@@ -1,0 +1,769 @@
+{
+	"format_version": "1.19.40",
+
+	// #region Vanilla Tweaks
+	"hardened_clay": {
+		"isotropic": false
+	},
+	"infested_deepslate": {
+		"carried_textures": {
+			"down": "deepslate_top",
+			"side": "deepslate",
+			"up": "cpt_infested_deepslate"
+		}
+	},
+	"monster_egg": {
+		"carried_textures": {
+			"down": "monster_egg",
+			"side": "monster_egg",
+			"up": "cpt_infested"
+		}
+	},
+	"obsidian": {
+		"isotropic": false
+	},
+	"stained_hardened_clay": {
+		"isotropic": false
+	},
+	"waxed_copper": {
+		"carried_textures": {
+			"down": "copper_block",
+			"side": "copper_block",
+			"up": "cpt_waxed_block"
+		}
+	},
+	"waxed_cut_copper": {
+		"carried_textures": {
+			"down": "cut_copper",
+			"side": "cut_copper",
+			"up": "cpt_waxed_cut"
+		}
+	},
+	"waxed_cut_copper_slab": {
+		"carried_textures": {
+			"down": "cut_copper",
+			"side": "cut_copper",
+			"up": "cpt_waxed_cut"
+		}
+	},
+	"waxed_cut_copper_stairs": {
+		"carried_textures": {
+			"down": "cut_copper",
+			"east": "cut_copper",
+			"north": "cut_copper",
+			"south": "cpt_waxed_upper",
+			"up": "cpt_waxed_lower",
+			"west": "cut_copper"
+		}
+	},
+	"waxed_exposed_copper": {
+		"carried_textures": {
+			"down": "exposed_copper",
+			"side": "exposed_copper",
+			"up": "cpt_waxed_exposed"
+		}
+	},
+	"waxed_exposed_cut_copper": {
+		"carried_textures": {
+			"down": "exposed_cut_copper",
+			"side": "exposed_cut_copper",
+			"up": "cpt_waxed_cut_exposed"
+		}
+	},
+	"waxed_exposed_cut_copper_slab": {
+		"carried_textures": {
+			"down": "exposed_cut_copper",
+			"side": "exposed_cut_copper",
+			"up": "cpt_waxed_cut_exposed"
+		}
+	},
+	"waxed_exposed_cut_copper_stairs": {
+		"carried_textures": {
+			"down": "exposed_cut_copper",
+			"east": "exposed_cut_copper",
+			"north": "exposed_cut_copper",
+			"south": "cpt_waxed_upper_exposed",
+			"up": "cpt_waxed_lower_exposed",
+			"west": "exposed_cut_copper"
+		}
+	},
+	"waxed_oxidized_copper": {
+		"carried_textures": {
+			"down": "oxidized_copper",
+			"side": "oxidized_copper",
+			"up": "cpt_waxed_oxidized"
+		}
+	},
+	"waxed_oxidized_cut_copper": {
+		"carried_textures": {
+			"down": "oxidized_cut_copper",
+			"side": "oxidized_cut_copper",
+			"up": "cpt_waxed_cut_oxidized"
+		}
+	},
+	"waxed_oxidized_cut_copper_slab": {
+		"carried_textures": {
+			"down": "oxidized_cut_copper",
+			"side": "oxidized_cut_copper",
+			"up": "cpt_waxed_cut_oxidized"
+		}
+	},
+	"waxed_oxidized_cut_copper_stairs": {
+		"carried_textures": {
+			"down": "oxidized_cut_copper",
+			"east": "oxidized_cut_copper",
+			"north": "oxidized_cut_copper",
+			"south": "cpt_waxed_upper_oxidized",
+			"up": "cpt_waxed_lower_oxidized",
+			"west": "oxidized_cut_copper"
+		}
+	},
+	"waxed_weathered_copper": {
+		"carried_textures": {
+			"down": "weathered_copper",
+			"side": "weathered_copper",
+			"up": "cpt_waxed_weathered"
+		}
+	},
+	"waxed_weathered_cut_copper": {
+		"carried_textures": {
+			"down": "weathered_cut_copper",
+			"side": "weathered_cut_copper",
+			"up": "cpt_waxed_cut_weathered"
+		}
+	},
+	"waxed_weathered_cut_copper_slab": {
+		"carried_textures": {
+			"down": "weathered_cut_copper",
+			"side": "weathered_cut_copper",
+			"up": "cpt_waxed_cut_weathered"
+		}
+	},
+	"waxed_weathered_cut_copper_stairs": {
+		"carried_textures": {
+			"down": "weathered_cut_copper",
+			"east": "weathered_cut_copper",
+			"north": "weathered_cut_copper",
+			"south": "cpt_waxed_upper_weathered",
+			"up": "cpt_waxed_lower_weathered",
+			"west": "weathered_cut_copper"
+		}
+	},
+	// #endregion
+
+	"cpc:fake_grass_dark": {
+		"sound": "grass",
+		"isotropic": { "down": true },
+		"textures": {
+			"down": "dirt",
+			"side": "cpb_fake_grass_dark_side",
+			"up": "cpb_fake_grass_dark"
+		}
+	},
+	"cpc:fake_grass_light": {
+		"sound": "grass",
+		"isotropic": { "down": true },
+		"textures": {
+			"down": "dirt",
+			"side": "cpb_fake_grass_light_side",
+			"up": "cpb_fake_grass_light"
+		}
+	},
+
+	"cpc:spirit_anchor": {
+		"sound": "lodestone",
+		"textures": {
+			"down": "smooth_stone",
+			"side": "cpb_spirit_anchor",
+			"up": "cpb_spirit_anchor_top"
+		}
+	},
+
+	"cpc:whopper": {
+		"sound": "nether_wart",
+		"textures": {
+			"down": "cpb_whopper_bottom",
+			"side": "cpb_whopper",
+			"up": "cpb_whopper_top"
+		},
+		"isotropic": {
+			"down": true,
+			"side": false,
+			"up": true
+		}
+	},
+
+	// #region Checkered Tiles
+	"cpc:ctiles_copper": {
+		"sound": "metal",
+		"textures": {
+			"down": "cpb_ctiles_copper_1",
+			"east": "cpb_ctiles_copper_1",
+			"north": "cpb_ctiles_copper_2",
+			"south": "cpb_ctiles_copper_2",
+			"up": "cpb_ctiles_copper_1",
+			"west": "cpb_ctiles_copper_1"
+		}
+	},
+	"cpc:ctiles_copper_exposed": {
+		"sound": "metal",
+		"textures": {
+			"down": "cpb_ctiles_copper_exposed_1",
+			"east": "cpb_ctiles_copper_exposed_1",
+			"north": "cpb_ctiles_copper_exposed_2",
+			"south": "cpb_ctiles_copper_exposed_2",
+			"up": "cpb_ctiles_copper_exposed_1",
+			"west": "cpb_ctiles_copper_exposed_1"
+		}
+	},
+	"cpc:ctiles_copper_weathered": {
+		"sound": "metal",
+		"textures": {
+			"down": "cpb_ctiles_copper_weathered_1",
+			"east": "cpb_ctiles_copper_weathered_1",
+			"north": "cpb_ctiles_copper_weathered_2",
+			"south": "cpb_ctiles_copper_weathered_2",
+			"up": "cpb_ctiles_copper_weathered_1",
+			"west": "cpb_ctiles_copper_weathered_1"
+		}
+	},
+	"cpc:ctiles_copper_oxidized": {
+		"sound": "metal",
+		"textures": {
+			"down": "cpb_ctiles_copper_oxidized_1",
+			"east": "cpb_ctiles_copper_oxidized_1",
+			"north": "cpb_ctiles_copper_oxidized_2",
+			"south": "cpb_ctiles_copper_oxidized_2",
+			"up": "cpb_ctiles_copper_oxidized_1",
+			"west": "cpb_ctiles_copper_oxidized_1"
+		}
+	},
+
+	"cpc:ctiles_coal": {
+		"sound": "metal",
+		"textures": {
+			"down": "cpb_ctiles_coal_1",
+			"east": "cpb_ctiles_coal_1",
+			"north": "cpb_ctiles_coal_2",
+			"south": "cpb_ctiles_coal_2",
+			"up": "cpb_ctiles_coal_1",
+			"west": "cpb_ctiles_coal_1"
+		}
+	},
+	"cpc:ctiles_diamond": {
+		"sound": "metal",
+		"textures": {
+			"down": "cpb_ctiles_diamond_1",
+			"east": "cpb_ctiles_diamond_1",
+			"north": "cpb_ctiles_diamond_2",
+			"south": "cpb_ctiles_diamond_2",
+			"up": "cpb_ctiles_diamond_1",
+			"west": "cpb_ctiles_diamond_1"
+		}
+	},
+	"cpc:ctiles_emerald": {
+		"sound": "metal",
+		"textures": {
+			"down": "cpb_ctiles_emerald_1",
+			"east": "cpb_ctiles_emerald_1",
+			"north": "cpb_ctiles_emerald_2",
+			"south": "cpb_ctiles_emerald_2",
+			"up": "cpb_ctiles_emerald_1",
+			"west": "cpb_ctiles_emerald_1"
+		}
+	},
+	"cpc:ctiles_gold": {
+		"sound": "metal",
+		"textures": {
+			"down": "cpb_ctiles_gold_1",
+			"east": "cpb_ctiles_gold_1",
+			"north": "cpb_ctiles_gold_2",
+			"south": "cpb_ctiles_gold_2",
+			"up": "cpb_ctiles_gold_1",
+			"west": "cpb_ctiles_gold_1"
+		}
+	},
+	"cpc:ctiles_iron": {
+		"sound": "metal",
+		"textures": {
+			"down": "cpb_ctiles_iron_1",
+			"east": "cpb_ctiles_iron_1",
+			"north": "cpb_ctiles_iron_2",
+			"south": "cpb_ctiles_iron_2",
+			"up": "cpb_ctiles_iron_1",
+			"west": "cpb_ctiles_iron_1"
+		}
+	},
+	"cpc:ctiles_lapis": {
+		"sound": "metal",
+		"textures": {
+			"down": "cpb_ctiles_lapis_1",
+			"east": "cpb_ctiles_lapis_1",
+			"north": "cpb_ctiles_lapis_2",
+			"south": "cpb_ctiles_lapis_2",
+			"up": "cpb_ctiles_lapis_1",
+			"west": "cpb_ctiles_lapis_1"
+		}
+	},
+	"cpc:ctiles_redstone": {
+		"sound": "metal",
+		"textures": {
+			"down": "cpb_ctiles_redstone_1",
+			"east": "cpb_ctiles_redstone_1",
+			"north": "cpb_ctiles_redstone_2",
+			"south": "cpb_ctiles_redstone_2",
+			"up": "cpb_ctiles_redstone_1",
+			"west": "cpb_ctiles_redstone_1"
+		}
+	},
+	// #endregion
+
+	// #region Spleef Floor
+	"cpc:spleef_soft": {
+		"sound": "glass",
+		"isotropic": true,
+		"textures": "cpb_spleef_soft"
+	},
+	"cpc:spleef_soft_x": {
+		"sound": "candle",
+		"textures": "cpb_spleef_x"
+	},
+	"cpc:spleef_tough": {
+		"sound": "glass",
+		"isotropic": true,
+		"textures": "cpb_spleef_tough"
+	},
+	"cpc:spleef_tough_x": {
+		"sound": "candle",
+		"textures": "cpb_spleef_x"
+	},
+	"cpc:spleef_vanishing": {
+		"sound": "glass",
+		"isotropic": true,
+		"textures": "cpb_spleef_vanishing"
+	},
+	"cpc:spleef_vanishing_x": {
+		"sound": "candle",
+		"textures": "cpb_spleef_x"
+	},
+	// #endregion
+
+	// #region Colors
+	"cpc:color_white": {
+		"sound": "bone_block",
+		"textures": "cpb_color_white"
+	},
+	"cpc:color_white_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_white",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_white"
+	},
+	"cpc:color_white_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_white",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_white"
+	},
+	"cpc:color_white_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_white"
+	},
+	"cpc:color_ltgray": {
+		"sound": "bone_block",
+		"textures": "cpb_color_ltgray"
+	},
+	"cpc:color_ltgray_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_ltgray",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_ltgray"
+	},
+	"cpc:color_ltgray_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_ltgray",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_ltgray"
+	},
+	"cpc:color_ltgray_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_ltgray"
+	},
+	"cpc:color_gray": {
+		"sound": "bone_block",
+		"textures": "cpb_color_gray"
+	},
+	"cpc:color_gray_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_gray",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_gray"
+	},
+	"cpc:color_gray_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_gray",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_gray"
+	},
+	"cpc:color_gray_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_gray"
+	},
+	"cpc:color_black": {
+		"sound": "bone_block",
+		"textures": "cpb_color_black"
+	},
+	"cpc:color_black_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_black",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_black"
+	},
+	"cpc:color_black_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_black",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_black"
+	},
+	"cpc:color_black_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_black"
+	},
+	"cpc:color_brown": {
+		"sound": "bone_block",
+		"textures": "cpb_color_brown"
+	},
+	"cpc:color_brown_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_brown",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_brown"
+	},
+	"cpc:color_brown_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_brown",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_brown"
+	},
+	"cpc:color_brown_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_brown"
+	},
+	"cpc:color_red": {
+		"sound": "bone_block",
+		"textures": "cpb_color_red"
+	},
+	"cpc:color_red_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_red",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_red"
+	},
+	"cpc:color_red_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_red",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_red"
+	},
+	"cpc:color_red_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_red"
+	},
+	"cpc:color_orange": {
+		"sound": "bone_block",
+		"textures": "cpb_color_orange"
+	},
+	"cpc:color_orange_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_orange",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_orange"
+	},
+	"cpc:color_orange_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_orange",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_orange"
+	},
+	"cpc:color_orange_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_orange"
+	},
+	"cpc:color_yellow": {
+		"sound": "bone_block",
+		"textures": "cpb_color_yellow"
+	},
+	"cpc:color_yellow_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_yellow",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_yellow"
+	},
+	"cpc:color_yellow_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_yellow",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_yellow"
+	},
+	"cpc:color_yellow_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_yellow"
+	},
+	"cpc:color_lime": {
+		"sound": "bone_block",
+		"textures": "cpb_color_lime"
+	},
+	"cpc:color_lime_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_lime",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_lime"
+	},
+	"cpc:color_lime_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_lime",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_lime"
+	},
+	"cpc:color_lime_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_lime"
+	},
+	"cpc:color_green": {
+		"sound": "bone_block",
+		"textures": "cpb_color_green"
+	},
+	"cpc:color_green_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_green",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_green"
+	},
+	"cpc:color_green_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_green",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_green"
+	},
+	"cpc:color_green_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_green"
+	},
+	"cpc:color_cyan": {
+		"sound": "bone_block",
+		"textures": "cpb_color_cyan"
+	},
+	"cpc:color_cyan_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_cyan",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_cyan"
+	},
+	"cpc:color_cyan_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_cyan",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_cyan"
+	},
+	"cpc:color_cyan_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_cyan"
+	},
+	"cpc:color_ltblue": {
+		"sound": "bone_block",
+		"textures": "cpb_color_ltblue"
+	},
+	"cpc:color_ltblue_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_ltblue",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_ltblue"
+	},
+	"cpc:color_ltblue_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_ltblue",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_ltblue"
+	},
+	"cpc:color_ltblue_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_ltblue"
+	},
+	"cpc:color_blue": {
+		"sound": "bone_block",
+		"textures": "cpb_color_blue"
+	},
+	"cpc:color_blue_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_blue",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_blue"
+	},
+	"cpc:color_blue_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_blue",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_blue"
+	},
+	"cpc:color_blue_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_blue"
+	},
+	"cpc:color_purple": {
+		"sound": "bone_block",
+		"textures": "cpb_color_purple"
+	},
+	"cpc:color_purple_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_purple",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_purple"
+	},
+	"cpc:color_purple_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_purple",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_purple"
+	},
+	"cpc:color_purple_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_purple"
+	},
+	"cpc:color_magenta": {
+		"sound": "bone_block",
+		"textures": "cpb_color_magenta"
+	},
+	"cpc:color_magenta_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_magenta",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_magenta"
+	},
+	"cpc:color_magenta_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_magenta",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_magenta"
+	},
+	"cpc:color_magenta_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_magenta"
+	},
+	"cpc:color_pink": {
+		"sound": "bone_block",
+		"textures": "cpb_color_pink"
+	},
+	"cpc:color_pink_c": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_pink",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_pink"
+	},
+	"cpc:color_pink_cg": {
+		"sound": "bone_block",
+		"carried_textures": {
+			"down": "cpb_color_clear",
+			"side": "cpb_color_pink",
+			"up": "cpb_color_clear"
+		},
+		"textures": "cpb_color_pink"
+	},
+	"cpc:color_pink_g": {
+		"sound": "bone_block",
+		"textures": "cpb_color_pink"
+	}
+	// #endregion
+}

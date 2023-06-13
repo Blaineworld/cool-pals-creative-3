@@ -1,0 +1,14 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cpc:fake_grass_dark",
+			"menu_category": { "category": "construction" },
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.25 },
+			"minecraft:map_color": "#195719"
+		}
+	}
+}

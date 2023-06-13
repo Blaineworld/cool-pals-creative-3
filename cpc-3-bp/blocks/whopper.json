@@ -1,0 +1,30 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cpc:whopper",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.cookedFood"
+			},
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.25 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 0 },
+			"minecraft:map_color": "#FF0000",
+			"minecraft:on_interact": { "event": "cpc:munch" }
+		},
+		"events": {
+			"cpc:munch": {
+				"run_command": {
+					"command": [
+						"effect @s saturation 2 0 true",
+						"playsound random.eat @a[r=16] ~ ~0.75 ~"
+					],
+					"target": "other"
+				}
+			}
+		}
+	}
+}

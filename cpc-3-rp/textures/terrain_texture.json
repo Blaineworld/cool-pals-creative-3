@@ -1,0 +1,127 @@
+{
+	"texture_name": "atlas.terrain",
+	"resource_pack_name": "cpc3",
+	"padding": 8,
+	"num_mip_levels": 4,
+
+	"texture_data": {
+		// #region Vanilla Tweaks
+		"cpt_infested": {
+			"textures": [
+				"textures/cpt/infested/cobblestone",
+				"textures/cpt/infested/stone_bricks",
+				"textures/cpt/infested/mossy_stone_bricks",
+				"textures/cpt/infested/cracked_stone_bricks",
+				"textures/cpt/infested/stone_bricks",
+				"textures/cpt/infested/stone"
+			]
+		},
+		"cpt_infested_deepslate": { "textures": "textures/cpt/infested/deepslate" },
+		"cpt_waxed_block": { "textures": "textures/cpt/waxed/block" },
+		"cpt_waxed_cut": { "textures": "textures/cpt/waxed/cut" },
+		"cpt_waxed_cut_exposed": { "textures": "textures/cpt/waxed/cut_exposed" },
+		"cpt_waxed_cut_oxidized": { "textures": "textures/cpt/waxed/cut_oxidized" },
+		"cpt_waxed_cut_weathered": { "textures": "textures/cpt/waxed/cut_weathered" },
+		"cpt_waxed_exposed": { "textures": "textures/cpt/waxed/exposed" },
+		"cpt_waxed_lower": { "textures": "textures/cpt/waxed/lower" },
+		"cpt_waxed_lower_exposed": { "textures": "textures/cpt/waxed/lower_exposed" },
+		"cpt_waxed_lower_oxidized": { "textures": "textures/cpt/waxed/lower_oxidized" },
+		"cpt_waxed_lower_weathered": { "textures": "textures/cpt/waxed/lower_weathered" },
+		"cpt_waxed_oxidized": { "textures": "textures/cpt/waxed/oxidized" },
+		"cpt_waxed_upper": { "textures": "textures/cpt/waxed/upper" },
+		"cpt_waxed_upper_exposed": { "textures": "textures/cpt/waxed/upper_exposed" },
+		"cpt_waxed_upper_oxidized": { "textures": "textures/cpt/waxed/upper_oxidized" },
+		"cpt_waxed_upper_weathered": { "textures": "textures/cpt/waxed/upper_weathered" },
+		"cpt_waxed_weathered": { "textures": "textures/cpt/waxed/weathered" },
+		"purpur_block_bottom": {
+			"textures": [
+				"textures/blocks/purpur_block",
+				"textures/cpb/chiseled_purpur_top",
+				"textures/blocks/purpur_pillar_top",
+				"textures/cpb/smooth_purpur"
+			]
+		},
+		"purpur_block_side": {
+			"textures": [
+				"textures/blocks/purpur_block",
+				"textures/cpb/chiseled_purpur",
+				"textures/blocks/purpur_pillar",
+				"textures/cpb/smooth_purpur"
+			]
+		},
+		"purpur_block_top": {
+			"textures": [
+				"textures/blocks/purpur_block",
+				"textures/cpb/chiseled_purpur_top",
+				"textures/blocks/purpur_pillar_top",
+				"textures/cpb/smooth_purpur"
+			]
+		},
+		// #endregion
+
+		"cpb_fake_grass_dark": { "textures": "textures/cpb/fake_grass_dark" },
+		"cpb_fake_grass_dark_side": { "textures": "textures/cpb/fake_grass_dark_side" },
+		"cpb_fake_grass_light": { "textures": "textures/cpb/fake_grass_light" },
+		"cpb_fake_grass_light_side": { "textures": "textures/cpb/fake_grass_light_side" },
+
+		"cpb_spirit_anchor": { "textures": "textures/cpb/spirit_anchor" },
+		"cpb_spirit_anchor_top": { "textures": "textures/cpb/spirit_anchor_top" },
+
+		"cpb_whopper": { "textures": "textures/cpb/whopper" },
+		"cpb_whopper_bottom": { "textures": "textures/cpb/whopper_bottom" },
+		"cpb_whopper_top": { "textures": "textures/cpb/whopper_top" },
+
+		// #region Checkered Tiles
+		"cpb_ctiles_copper_1": { "textures": "textures/cpb/ctiles/copper_1" },
+		"cpb_ctiles_copper_2": { "textures": "textures/cpb/ctiles/copper_2" },
+		"cpb_ctiles_copper_exposed_1": { "textures": "textures/cpb/ctiles/copper_exposed_1" },
+		"cpb_ctiles_copper_exposed_2": { "textures": "textures/cpb/ctiles/copper_exposed_2" },
+		"cpb_ctiles_copper_weathered_1": { "textures": "textures/cpb/ctiles/copper_weathered_1" },
+		"cpb_ctiles_copper_weathered_2": { "textures": "textures/cpb/ctiles/copper_weathered_2" },
+		"cpb_ctiles_copper_oxidized_1": { "textures": "textures/cpb/ctiles/copper_oxidized_1" },
+		"cpb_ctiles_copper_oxidized_2": { "textures": "textures/cpb/ctiles/copper_oxidized_2" },
+
+		"cpb_ctiles_coal_1": { "textures": "textures/cpb/ctiles/coal_1" },
+		"cpb_ctiles_coal_2": { "textures": "textures/cpb/ctiles/coal_2" },
+		"cpb_ctiles_diamond_1": { "textures": "textures/cpb/ctiles/diamond_1" },
+		"cpb_ctiles_diamond_2": { "textures": "textures/cpb/ctiles/diamond_2" },
+		"cpb_ctiles_emerald_1": { "textures": "textures/cpb/ctiles/emerald_1" },
+		"cpb_ctiles_emerald_2": { "textures": "textures/cpb/ctiles/emerald_2" },
+		"cpb_ctiles_gold_1": { "textures": "textures/cpb/ctiles/gold_1" },
+		"cpb_ctiles_gold_2": { "textures": "textures/cpb/ctiles/gold_2" },
+		"cpb_ctiles_iron_1": { "textures": "textures/cpb/ctiles/iron_1" },
+		"cpb_ctiles_iron_2": { "textures": "textures/cpb/ctiles/iron_2" },
+		"cpb_ctiles_lapis_1": { "textures": "textures/cpb/ctiles/lapis_1" },
+		"cpb_ctiles_lapis_2": { "textures": "textures/cpb/ctiles/lapis_2" },
+		"cpb_ctiles_redstone_1": { "textures": "textures/cpb/ctiles/redstone_1" },
+		"cpb_ctiles_redstone_2": { "textures": "textures/cpb/ctiles/redstone_2" },
+		// #endregion
+
+		// #region Spleef Floor
+		"cpb_spleef_x": { "textures": "textures/cpb/spleef_x" },
+		"cpb_spleef_soft": { "textures": "textures/cpb/spleef_soft" },
+		"cpb_spleef_tough": { "textures": "textures/cpb/spleef_tough" },
+		"cpb_spleef_vanishing": { "textures": "textures/cpb/spleef_vanishing" },
+		// #endregion
+
+		// #region Colors
+		"cpb_color_white": { "textures": "textures/cpb/color/white" },
+		"cpb_color_ltgray": { "textures": "textures/cpb/color/ltgray" },
+		"cpb_color_gray": { "textures": "textures/cpb/color/gray" },
+		"cpb_color_black": { "textures": "textures/cpb/color/black" },
+		"cpb_color_brown": { "textures": "textures/cpb/color/brown" },
+		"cpb_color_red": { "textures": "textures/cpb/color/red" },
+		"cpb_color_orange": { "textures": "textures/cpb/color/orange" },
+		"cpb_color_yellow": { "textures": "textures/cpb/color/yellow" },
+		"cpb_color_lime": { "textures": "textures/cpb/color/lime" },
+		"cpb_color_green": { "textures": "textures/cpb/color/green" },
+		"cpb_color_cyan": { "textures": "textures/cpb/color/cyan" },
+		"cpb_color_ltblue": { "textures": "textures/cpb/color/ltblue" },
+		"cpb_color_blue": { "textures": "textures/cpb/color/blue" },
+		"cpb_color_purple": { "textures": "textures/cpb/color/purple" },
+		"cpb_color_magenta": { "textures": "textures/cpb/color/magenta" },
+		"cpb_color_pink": { "textures": "textures/cpb/color/pink" },
+		"cpb_color_clear": { "textures": "textures/cpb/color/clear" }
+		// #endregion
+	}
+}

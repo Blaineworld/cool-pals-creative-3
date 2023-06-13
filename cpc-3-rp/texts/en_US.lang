@@ -1,0 +1,110 @@
+## HUD & UI Tweaks
+## accessibility.chat.howtoopen=§7Welcome to Cool Pals Creative!
+map.position=§8x§l§e%s§r §8y§l§a%s§r §8z§l§b%s
+
+item.cpc:luigi=Luigi
+
+##region Blocks
+
+tile.purpur_block.smooth.name=Smooth Purpur
+
+tile.cpc:fake_grass_dark.name=Dark Fake Grass
+tile.cpc:fake_grass_light.name=Light Fake Grass
+tile.cpc:synthetic_ice.name=Synthetic Ice
+tile.cpc:whopper.name=Whopper
+
+##region Checkered Tiles
+tile.cpc:ctiles_coal.name=Coal Checkered Tiles
+tile.cpc:ctiles_diamond.name=Diamond Checkered Tiles
+tile.cpc:ctiles_emerald.name=Emerald Checkered Tiles
+tile.cpc:ctiles_gold.name=Gold Checkered Tiles
+tile.cpc:ctiles_iron.name=Iron Checkered Tiles
+tile.cpc:ctiles_lapis.name=Lapis Lazuli Checkered Tiles
+tile.cpc:ctiles_redstone.name=Redstone Checkered Tiles
+
+tile.cpc:ctiles_copper.name=Copper Checkered Tiles
+tile.cpc:ctiles_copper_exposed.name=Exposed Copper Checkered Tiles
+tile.cpc:ctiles_copper_weathered.name=Weathered Copper Checkered Tiles
+tile.cpc:ctiles_copper_oxidized.name=Oxidized Copper Checkered Tiles
+##endregion
+
+##region Spleef Floors
+tile.cpc:spleef_soft.name=Soft Spleef Floor
+tile.cpc:spleef_soft_x.name=Depleted Soft Spleef Floor
+tile.cpc:spleef_tough.name=Soft Tough Floor
+tile.cpc:spleef_tough_x.name=Depleted Tough Spleef Floor
+tile.cpc:spleef_vanishing.name=Vanishing Spleef Floor
+tile.cpc:spleef_vanishing_x.name=Depleted Vanishing Spleef Floor
+##endregion
+
+##region Colors
+tile.cpc:color_white.name=White
+tile.cpc:color_ltgray.name=Light Gray
+tile.cpc:color_gray.name=Gray
+tile.cpc:color_black.name=Black
+tile.cpc:color_brown.name=Brown
+tile.cpc:color_red.name=Red
+tile.cpc:color_orange.name=Orange
+tile.cpc:color_yellow.name=Yellow
+tile.cpc:color_lime.name=Lime
+tile.cpc:color_green.name=Green
+tile.cpc:color_cyan.name=Cyan
+tile.cpc:color_ltblue.name=Light Blue
+tile.cpc:color_blue.name=Blue
+tile.cpc:color_purple.name=Purple
+tile.cpc:color_magenta.name=Magenta
+tile.cpc:color_pink.name=Pink
+
+tile.cpc:color_white_c.name=Clear White
+tile.cpc:color_ltgray_c.name=Clear Light Gray
+tile.cpc:color_gray_c.name=Clear Gray
+tile.cpc:color_black_c.name=Clear Black
+tile.cpc:color_brown_c.name=Clear Brown
+tile.cpc:color_red_c.name=Clear Red
+tile.cpc:color_orange_c.name=Clear Orange
+tile.cpc:color_yellow_c.name=Clear Yellow
+tile.cpc:color_lime_c.name=Clear Lime
+tile.cpc:color_green_c.name=Clear Green
+tile.cpc:color_cyan_c.name=Clear Cyan
+tile.cpc:color_ltblue_c.name=Clear Light Blue
+tile.cpc:color_blue_c.name=Clear Blue
+tile.cpc:color_purple_c.name=Clear Purple
+tile.cpc:color_magenta_c.name=Clear Magenta
+tile.cpc:color_pink_c.name=Clear Pink
+
+tile.cpc:color_white_cg.name=Clear, Glowing White
+tile.cpc:color_ltgray_cg.name=Clear, Glowing Light Gray
+tile.cpc:color_gray_cg.name=Clear, Glowing Gray
+tile.cpc:color_black_cg.name=Clear, Glowing Black
+tile.cpc:color_brown_cg.name=Clear, Glowing Brown
+tile.cpc:color_red_cg.name=Clear, Glowing Red
+tile.cpc:color_orange_cg.name=Clear, Glowing Orange
+tile.cpc:color_yellow_cg.name=Clear, Glowing Yellow
+tile.cpc:color_lime_cg.name=Clear, Glowing Lime
+tile.cpc:color_green_cg.name=Clear, Glowing Green
+tile.cpc:color_cyan_cg.name=Clear, Glowing Cyan
+tile.cpc:color_ltblue_cg.name=Clear, Glowing Light Blue
+tile.cpc:color_blue_cg.name=Clear, Glowing Blue
+tile.cpc:color_purple_cg.name=Clear, Glowing Purple
+tile.cpc:color_magenta_cg.name=Clear, Glowing Magenta
+tile.cpc:color_pink_cg.name=Clear, Glowing Pink
+
+tile.cpc:color_white_g.name=Glowing White
+tile.cpc:color_ltgray_g.name=Glowing Light Gray
+tile.cpc:color_gray_g.name=Glowing Gray
+tile.cpc:color_black_g.name=Glowing Black
+tile.cpc:color_brown_g.name=Glowing Brown
+tile.cpc:color_red_g.name=Glowing Red
+tile.cpc:color_orange_g.name=Glowing Orange
+tile.cpc:color_yellow_g.name=Glowing Yellow
+tile.cpc:color_lime_g.name=Glowing Lime
+tile.cpc:color_green_g.name=Glowing Green
+tile.cpc:color_cyan_g.name=Glowing Cyan
+tile.cpc:color_ltblue_g.name=Glowing Light Blue
+tile.cpc:color_blue_g.name=Glowing Blue
+tile.cpc:color_purple_g.name=Glowing Purple
+tile.cpc:color_magenta_g.name=Glowing Magenta
+tile.cpc:color_pink_g.name=Glowing Pink
+##endregion
+
+##endregion

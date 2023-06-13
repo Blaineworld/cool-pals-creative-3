@@ -1,0 +1,37 @@
+| 3.0.0: The In-Place Rewrite
+
+- removed everything (to replace it with a better version)
+
+UI & HUD Tweaks
+ + indicators on waxed and infested blocks in item form
+    Waxed blocks have honey, and infested blocks have a silverfish.
+ + more compact font
+    Most letters are now 4 pixels wide instead of 5.
+    You can fit more text in text areas (except books) with this font.
+ + more compact and readable coordinate display
+
+Non-Interactive Blocks
+ + Artificial Grass
+    Fake grass that looks like an old-school grass texture.
+    It is not currently treated as a real dirt block by the game.
+    It has two variants: Light (Java Alpha) and Dark (PE Alpha).
+ + Chiseled and Smooth Purpur
+    Data values 1 and 3 of Purpur respectively.
+ + Colors
+    Solid blocks of every dye color.
+    They can be clear, glowing, both, or neither.
+
+Interactive Blocks
+ + Spleef Floors
+    Magical blocks specifically designed for spleef games!
+    When broken, they leave an outline that can be refilled with commands.
+    Soft: breaks instantly.
+    Tough: breaks in 1 tick. Use the Mining Fatigue effect to adjust this.
+    Unstable: breaks when someone walks over it. Kinda like TNT Run!
+ + Whopper
+    An absolute whopper of a cheeseburger.
+    It restores half a hunger thingy when clicked.
+
+Technical Features
+ + game rules reset automatically when everyone leaves
+    This also includes difficulty and weather.

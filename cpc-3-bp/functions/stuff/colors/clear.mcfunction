@@ -1,0 +1,16 @@
+give @s cpc:color_white_c
+give @s cpc:color_ltgray_c
+give @s cpc:color_gray_c
+give @s cpc:color_black_c
+give @s cpc:color_brown_c
+give @s cpc:color_red_c
+give @s cpc:color_orange_c
+give @s cpc:color_yellow_c
+give @s cpc:color_lime_c
+give @s cpc:color_green_c
+give @s cpc:color_cyan_c
+give @s cpc:color_ltblue_c
+give @s cpc:color_blue_c
+give @s cpc:color_purple_c
+give @s cpc:color_magenta_c
+give @s cpc:color_pink_c
