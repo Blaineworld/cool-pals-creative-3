@@ -30,7 +30,10 @@
 			"cpc:vanish": {
 				"set_block": { "block_type": "cpc:spleef_vanishing_x" },
 				"run_command": {
-					"command": [ "playsound random.glass @a[r=32] ~ ~ ~ 1.0 1.25" ]
+					"command": [
+						"playsound random.glass @a[r=32] ~ ~ ~ 1.0 1.25",
+						"particle cpc:spleef_floor_vanish ~ ~ ~"
+					]
 				}
 			}
 		}

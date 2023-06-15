@@ -32,6 +32,9 @@ Interactive Blocks
     An absolute whopper of a cheeseburger.
     It restores half a hunger thingy when clicked.
 
-Technical Features
+Quality-of-Life
  + game rules reset automatically when everyone leaves
     This also includes difficulty and weather.
+ + new players spawn with an elytra equipped and fireworks in their hands
+
+Note: Most custom items are not currently available without using commands.

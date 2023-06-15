@@ -31,7 +31,7 @@ tile.cpc:ctiles_copper_oxidized.name=Oxidized Copper Checkered Tiles
 ##region Spleef Floors
 tile.cpc:spleef_soft.name=Soft Spleef Floor
 tile.cpc:spleef_soft_x.name=Depleted Soft Spleef Floor
-tile.cpc:spleef_tough.name=Soft Tough Floor
+tile.cpc:spleef_tough.name=Tough Spleef Floor
 tile.cpc:spleef_tough_x.name=Depleted Tough Spleef Floor
 tile.cpc:spleef_vanishing.name=Vanishing Spleef Floor
 tile.cpc:spleef_vanishing_x.name=Depleted Vanishing Spleef Floor
