@@ -1,4 +1,4 @@
-# CPC 3.0: The In-Place Rewrite
+# ![Cool Pals](cpc-3-rp/textures/ui/title.png) Creative 3.x
 
 CPC 3.0 is CPC 2.0 rewritten and reworked. I've removed and replaced certain
 features, generally enhanced others, and made the whole thing public on GitHub.
@@ -7,6 +7,6 @@ because nobody really appreciates the work I do on custom features. 🥲
 Oh, but you will... very, very soon... I have awesome things planned...)
 
  - [update log (also somewhat of a feature list)](update-log.txt)
- - [painting credits](cpc-3-rp/textures/painting/credits.txt)
+ - [credits](credits.md)
 
 ![cool drawing of a car by robin](cool-pals-car.jpg)

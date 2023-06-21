@@ -1,6 +1,8 @@
 | 3.0.0: The In-Place Rewrite
 
 - removed everything (to replace it with a better version)
++ custom paintings
+   Cool Pals Car, Gray Guy, yeaVerily
 
 UI & HUD Tweaks
  + indicators on waxed and infested blocks in item form
@@ -24,7 +26,7 @@ Non-Interactive Blocks
 Interactive Blocks
  + Spleef Floors
     Magical blocks specifically designed for spleef games!
-    When broken, they leave an outline that can be refilled with commands.
+    When broken, they leave an outline that can be replaced with /fill.
     Soft: breaks instantly.
     Tough: breaks in 1 tick. Use the Mining Fatigue effect to adjust this.
     Unstable: breaks when someone walks over it. Kinda like TNT Run!
@@ -37,4 +39,8 @@ Quality-of-Life
     This also includes difficulty and weather.
  + new players spawn with an elytra and fireworks equipped
 
-Note: Most custom items are not currently available without using commands.
+Minor Tweaks
+ * disabled texture rotation for terracotta and obsidian
+    Obsidian still has texture rotation on the top and bottom.
+
+Note: Most custom items are not currently available without commands.

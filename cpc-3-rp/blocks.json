@@ -20,7 +20,11 @@
 		}
 	},
 	"obsidian": {
-		"isotropic": false
+		"isotropic": {
+			"down": true,
+			"side": false,
+			"up": true
+		}
 	},
 	"stained_hardened_clay": {
 		"isotropic": false
