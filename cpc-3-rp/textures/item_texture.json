@@ -2,6 +2,6 @@
 	"resource_pack_name": "cpc3",
 	"texture_name": "atlas.items",
 	"texture_data": {
-		"cpi_seat": { "textures": "textures/cpi/seat" }
+		"cpi_luigi": { "textures": "textures/cpi/luigi" }
 	}
 }

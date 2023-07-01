@@ -3,15 +3,11 @@
 	"minecraft:block": {
 		"description": {
 			"identifier": "cpc:ctiles_lapis",
-			"menu_category": {
-				"category": "construction"
-			},
+			"menu_category": { "category": "construction" },
 			"register_to_creative_menu": true
 		},
 		"components": {
-			"minecraft:destructible_by_explosion": {
-				"explosion_resistance": 6
-			},
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 6 },
 			"minecraft:destructible_by_mining": { "seconds_to_destroy": 1 },
 			"minecraft:map_color": "#AEAEBA"
 		}

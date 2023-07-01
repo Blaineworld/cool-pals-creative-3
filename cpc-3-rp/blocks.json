@@ -322,6 +322,13 @@
 	},
 	// #endregion
 
+	// #region Lamps
+	"cpc:lamp_sea": {
+		"sound": "glass",
+		"textures": "cpb_lamp_sea"
+	},
+	// #endregoin
+
 	// #region Spleef Floor
 	"cpc:spleef_soft": {
 		"sound": "glass",

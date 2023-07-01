@@ -28,6 +28,10 @@ tile.cpc:ctiles_copper_weathered.name=Weathered Copper Checkered Tiles
 tile.cpc:ctiles_copper_oxidized.name=Oxidized Copper Checkered Tiles
 ##endregion
 
+##region Lamps
+tile.cpc:lamp_sea.name=Sea Lamp
+##endregion
+
 ##region Spleef Floors
 tile.cpc:spleef_soft.name=Soft Spleef Floor
 tile.cpc:spleef_soft_x.name=Depleted Soft Spleef Floor

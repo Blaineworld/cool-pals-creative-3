@@ -97,6 +97,10 @@
 		"cpb_ctiles_redstone_2": { "textures": "textures/cpb/ctiles/redstone_2" },
 		// #endregion
 
+		// #region Lamps
+		"cpb_lamp_sea": { "textures": "textures/cpb/lamp/sea" },
+		// #endregion
+
 		// #region Spleef Floor
 		"cpb_spleef_x": { "textures": "textures/cpb/spleef_x" },
 		"cpb_spleef_soft": { "textures": "textures/cpb/spleef_soft" },
