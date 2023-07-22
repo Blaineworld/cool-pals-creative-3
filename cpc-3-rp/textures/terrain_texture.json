@@ -62,7 +62,8 @@
 		"cpb_fake_grass_dark": { "textures": "textures/cpb/fake_grass_dark" },
 		"cpb_fake_grass_dark_side": { "textures": "textures/cpb/fake_grass_dark_side" },
 		"cpb_fake_grass_light": { "textures": "textures/cpb/fake_grass_light" },
-		"cpb_fake_grass_light_side": { "textures": "textures/cpb/fake_grass_light_side" },
+		"cpb_fake_grass_medium": { "textures": "textures/cpb/fake_grass_medium" },
+		"cpb_fake_grass_side": { "textures": "textures/cpb/fake_grass_side" },
 
 		"cpb_spirit_anchor": { "textures": "textures/cpb/spirit_anchor" },
 		"cpb_spirit_anchor_top": { "textures": "textures/cpb/spirit_anchor_top" },

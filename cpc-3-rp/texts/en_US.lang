@@ -10,6 +10,7 @@ tile.purpur_block.smooth.name=Smooth Purpur
 
 tile.cpc:fake_grass_dark.name=Dark Fake Grass
 tile.cpc:fake_grass_light.name=Light Fake Grass
+tile.cpc:fake_grass_medium.name=Medium Fake Grass
 tile.cpc:synthetic_ice.name=Synthetic Ice
 tile.cpc:whopper.name=Whopper
 

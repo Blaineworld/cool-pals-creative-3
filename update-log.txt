@@ -16,7 +16,7 @@ Non-Interactive Blocks
  + Artificial Grass
     Fake grass that looks like an old-school grass texture.
     It is not currently treated as a real dirt block by the game.
-    It has two variants: Light (Java Alpha) and Dark (PE Alpha).
+    It has three variants: Light (Classic), Medium (Beta), and Dark (PE Alpha).
  + Chiseled and Smooth Purpur
     Data values 1 and 3 of Purpur respectively.
  + Colors

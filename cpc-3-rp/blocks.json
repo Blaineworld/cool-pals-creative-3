@@ -169,8 +169,17 @@
 		"isotropic": { "down": true },
 		"textures": {
 			"down": "dirt",
-			"side": "cpb_fake_grass_light_side",
+			"side": "cpb_fake_grass_side",
 			"up": "cpb_fake_grass_light"
+		}
+	},
+	"cpc:fake_grass_medium": {
+		"sound": "grass",
+		"isotropic": { "down": true },
+		"textures": {
+			"down": "dirt",
+			"side": "cpb_fake_grass_side",
+			"up": "cpb_fake_grass_medium"
 		}
 	},
 

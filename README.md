@@ -6,7 +6,8 @@ The best part? I didn't even reset the world this time! (That's the best part
 because nobody really appreciates the work I do on custom features. 🥲
 Oh, but you will... very, very soon... I have awesome things planned...)
 
- - [update log (also somewhat of a feature list)](update-log.txt)
- - [credits](credits.md)
+- [update log (also somewhat of a feature list)](update-log.txt)
+- [credits](credits.md)
 
-![cool drawing of a car by robin](cool-pals-car.jpg)
+**Use the following Experiments:**
+- Holiday Creator Features
