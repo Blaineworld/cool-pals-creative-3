@@ -1,0 +1,19 @@
+{
+	"format_version": "1.17.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cpc:joke_bryce",
+			"category": "technical"
+		},
+		"components": {
+			"minecraft:creative_category": { "parent": "craftingScreen.tab.none" },
+			"minecraft:icon": { "texture": "cpi_joke_bryce" },
+			"minecraft:hand_equipped": true,
+
+			"minecraft:max_stack_size": 63,
+			"minecraft:stacked_by_data": true,
+
+			"minecraft:block_placer": { "block": "cpc:joke_bryce_block" }
+		}
+	}
+}

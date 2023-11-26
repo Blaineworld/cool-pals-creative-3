@@ -1,0 +1,26 @@
+{
+	"format_version": "1.17.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cpc:joke_luigi",
+			"category": "technical"
+		},
+		"components": {
+			"minecraft:creative_category": { "parent": "craftingScreen.tab.none" },
+			"minecraft:icon": { "texture": "cpi_joke_luigi" },
+			"minecraft:hand_equipped": false,
+
+			"minecraft:max_stack_size": 64,
+			"minecraft:stacked_by_data": false,
+
+			"minecraft:use_animation": "eat",
+			"minecraft:use_duration": 1,
+			"minecraft:food": {
+				"saturation_modifier": "supernatural",
+				"nutrition": 20,
+				"can_always_eat": true,
+				"effects": { }
+			}
+		}
+	}
+}

@@ -4,7 +4,7 @@
 	"header": {
 		"version": [ 2, 0, 0 ],
 		"uuid": "809e5447-d704-490a-8feb-b05010c368f6",
-		"min_engine_version": [ 1, 19, 50 ],
+		"min_engine_version": [ 1, 20, 40 ],
 
 		"name": "CPC-3 Resource Pack",
 		"description": "Cool Pals Creative 3.0 resource pack"

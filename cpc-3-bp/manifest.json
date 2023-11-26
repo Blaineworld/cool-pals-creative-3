@@ -4,7 +4,7 @@
 	"header": {
 		"version": [ 2, 0, 0 ],
 		"uuid": "2f959037-39a0-4a24-9ebc-a7055b4dc4ae",
-		"min_engine_version": [ 1, 19, 50 ],
+		"min_engine_version": [ 1, 20, 40 ],
 
 		"name": "CPC-3 Behavior Pack",
 		"description": "Cool Pals Creative 3.0 behavior pack"

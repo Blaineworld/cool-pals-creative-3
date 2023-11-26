@@ -106,7 +106,8 @@
 		"cpb_spleef_x": { "textures": "textures/cpb/spleef_x" },
 		"cpb_spleef_soft": { "textures": "textures/cpb/spleef_soft" },
 		"cpb_spleef_tough": { "textures": "textures/cpb/spleef_tough" },
-		"cpb_spleef_vanishing": { "textures": "textures/cpb/spleef_vanishing" },
+		"cpb_spleef_unstable": { "textures": "textures/cpb/spleef/unstable" },
+		"cpb_spleef_unstable_side": { "textures": "textures/cpb/spleef/unstable_side" },
 		// #endregion
 
 		// #region Colors

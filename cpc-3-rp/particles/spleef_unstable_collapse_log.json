@@ -1,0 +1,51 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "cpc:spleef_unstable_collapse_log",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/blocks/planks_oak"
+			}
+		},
+		"components": {
+			"minecraft:emitter_lifetime_once": {},
+			"minecraft:emitter_rate_instant": { "num_particles": 7 },
+			"minecraft:emitter_shape_box": {
+				"direction": "outwards",
+				"offset": [ 0, 0, 0 ],
+				"half_dimensions": [ 0.25, 0.5, 0.25 ]
+			},
+
+			"minecraft:particle_appearance_billboard": {
+				"size": [
+					"0.03125 + variable.particle_random_3 * 0.0625",
+					"0.03125 + variable.particle_random_3 * 0.0625"
+				],
+				"facing_camera_mode": "lookat_xyz",
+				"uv": {
+					"texture_width": 16,
+					"texture_height": 16,
+					"uv": [
+						"variable.particle_random_1 * 12",
+						"variable.particle_random_2 * 12"
+					],
+					"uv_size": [ 4, 4 ]
+				}
+			},
+
+			"minecraft:particle_initial_speed": 0.125,
+
+			"minecraft:particle_motion_collision": { "collision_drag": 0.5 },
+
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": "3 / Math.Random(1, 5) + 0.1"
+			},
+			"minecraft:particle_motion_dynamic": {
+				"linear_acceleration": [ 0, -9.8, 0 ],
+				"linear_drag_coefficient": 0
+			},
+			"minecraft:particle_appearance_lighting": {}
+		}
+	}
+}

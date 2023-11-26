@@ -183,15 +183,10 @@
 		}
 	},
 
-	"cpc:spirit_anchor": {
-		"sound": "lodestone",
-		"textures": {
-			"down": "smooth_stone",
-			"side": "cpb_spirit_anchor",
-			"up": "cpb_spirit_anchor_top"
-		}
+	"cpc:joke_bryce_block": {
+		"sound": "honey_block",
+		"textures": "cpb_color_lime"
 	},
-
 	"cpc:whopper": {
 		"sound": "nether_wart",
 		"textures": {
@@ -357,12 +352,15 @@
 		"sound": "candle",
 		"textures": "cpb_spleef_x"
 	},
-	"cpc:spleef_vanishing": {
-		"sound": "glass",
-		"isotropic": true,
-		"textures": "cpb_spleef_vanishing"
+	"cpc:spleef_unstable": {
+		"sound": "suspicious_sand",
+		"textures": {
+			"down": "cpb_spleef_unstable",
+			"side": "cpb_spleef_unstable_side",
+			"up": "cpb_spleef_unstable"
+		}
 	},
-	"cpc:spleef_vanishing_x": {
+	"cpc:spleef_unstable_x": {
 		"sound": "candle",
 		"textures": "cpb_spleef_x"
 	},

@@ -9,5 +9,5 @@ Oh, but you will... very, very soon... I have awesome things planned...)
 - [update log (also somewhat of a feature list)](update-log.txt)
 - [credits](credits.md)
 
-**Use the following Experiments:**
+**Use the following Experimental Toggles:**
 - Holiday Creator Features

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cpc:joke_bryce_block",
+			"register_to_creative_menu": false
+		},
+		"components": {
+			"minecraft:light_dampening": 3,
+			"minecraft:destructible_by_explosion": true,
+			"minecraft:destructible_by_mining": true,
+			"minecraft:loot": "loot_tables/blocks/cpc/bryce_block.json",
+			"minecraft:map_color": "#325F57",
+			"minecraft:on_player_destroyed": { "event": "cpc:ough" }
+		},
+		"events": {
+			"cpc:ough": {
+				"run_command": { "command": "playsound random.hurt @a ~ ~ ~ 1 1.0625" }
+			}
+		}
+	}
+}

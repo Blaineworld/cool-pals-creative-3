@@ -1,10 +1,22 @@
-| 3.0.0: The In-Place Rewrite
+ | 3.0.0: The In-Place Rewrite
 
-- removed everything (to replace it with a better version)
+- deleted everything (to rebuild it)
 + custom paintings
    Cool Pals Car, Gray Guy, yeaVerily
 
+Joke Items
+ + Luigi
+    From CPC-0. You can eat him to refill your entire hunger bar.
+ + Cucky
+    From CPC-1. You can instantly kill any entity with them.
+ + Bryce
+    From CPC-2. Bryce. Now with updated textures!
+    It can place Bryce Blocks, which are now individually randomized.
+ + Tiny Amogus
+    Its stack limit is 3, making it great for hopper counters!
+
 UI & HUD Tweaks
+ + beautiful custom title for loading screens
  + indicators on waxed and infested blocks in item form
     Waxed blocks have honey, and infested blocks have a silverfish.
  + more compact font
@@ -12,9 +24,8 @@ UI & HUD Tweaks
     You can fit more text in text areas (except books) with this font.
  + more compact and readable coordinate display
 
-Non-Interactive Blocks
- + Artificial Grass
-    Fake grass that looks like an old-school grass texture.
+Building Blocks
+ + Fake Grass
     It is not currently treated as a real dirt block by the game.
     It has three variants: Light (Classic), Medium (Beta), and Dark (PE Alpha).
  + Chiseled and Smooth Purpur
@@ -25,18 +36,17 @@ Non-Interactive Blocks
 
 Interactive Blocks
  + Spleef Floors
-    Magical blocks specifically designed for spleef games!
-    When broken, they leave an outline that can be replaced with /fill.
+    Magical blocks made specially for spleef games!
+    When broken in Survival, they leave outlines to be replaced with /fill.
     Soft: breaks instantly.
     Tough: breaks in 1 tick. Use the Mining Fatigue effect to adjust this.
-    Unstable: breaks when someone walks over it. Kinda like TNT Run!
+    Unstable: breaks when someone walks over it. It's a bit like TNT Run!
  + Whopper
-    An absolute whopper of a cheeseburger.
-    It restores half a hunger thingy when clicked.
+    A giant cheeseburger. It restores half a hunger thingy when clicked.
 
 Quality-of-Life
  + game rules reset automatically when everyone leaves
-    This also includes difficulty and weather.
+    This also includes the difficulty and weather.
  + new players spawn with an elytra and fireworks equipped
 
 Minor Tweaks

@@ -2,6 +2,9 @@
 	"resource_pack_name": "cpc3",
 	"texture_name": "atlas.items",
 	"texture_data": {
-		"cpi_luigi": { "textures": "textures/cpi/luigi" }
+		"cpi_joke_bryce": { "textures": "textures/cpi/joke/bryce" },
+		"cpi_joke_cucky": { "textures": "textures/cpi/joke/cucky" },
+		"cpi_joke_luigi": { "textures": "textures/cpi/joke/luigi" },
+		"cpi_joke_tiny_amogus": { "textures": "textures/cpi/joke/tiny_amogus" }
 	}
 }
